@@ -1,5 +1,5 @@
 {
-  "name": "grgk/seo-analyzer",
+  "name": "upworkmkd/seo-analyzer",
   "description": "Seo Analyzer",
   "type": "library",
   "license": "MIT",
@@ -29,8 +29,8 @@
   },
   "authors": [
     {
-      "name": "grgk",
-      "email": "gfx@karpiak.pl"
+      "name": "upworkmkd",
+      "email": "upworkmkd@gmail.com"
     }
   ],
   "scripts": {
