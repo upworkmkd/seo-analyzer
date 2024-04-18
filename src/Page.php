@@ -212,6 +212,7 @@ class Page
             Factor::TEXT => $this->parser->getText(),
             Factor::ALTS => $this->parser->getAlts(),
             Factor::IMAGES => $this->parser->getImages(),
+            Factor::SCHEMA => $this->parser->getSchema(),
             Factor::CANONICAL => $this->parser->getCanonical(),
             Factor::LINKS => $this->parser->getLinks()
         ]);

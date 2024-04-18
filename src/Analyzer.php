@@ -120,6 +120,7 @@ class Analyzer
         if (empty($this->metrics)) {
             $this->metrics = $this->getMetrics();
         }
+        
         $results = [];
         foreach ($this->metrics as $metric) {
             if ($analysisResult = $metric->analyze()) {

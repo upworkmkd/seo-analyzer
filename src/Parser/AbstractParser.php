@@ -13,6 +13,8 @@ abstract class AbstractParser implements ParserInterface
      */
     protected $dom;
 
+    protected $html;
+
     /**
      * @param string $html Html document to parse.
      */
@@ -31,6 +33,7 @@ abstract class AbstractParser implements ParserInterface
     {
         $internalErrors = libxml_use_internal_errors(true);
         $this->dom->loadHTML($html, LIBXML_NOWARNING);
+        $this->html = $html;
         libxml_use_internal_errors($internalErrors);
     }
 

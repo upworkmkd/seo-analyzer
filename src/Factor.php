@@ -17,6 +17,7 @@ class Factor
     const CANONICAL = 'canonical';
     const IMAGES = 'images';
 
+    const SCHEMA = 'schema';
     const LINKS = 'links';
 
     const TEXT = 'text';

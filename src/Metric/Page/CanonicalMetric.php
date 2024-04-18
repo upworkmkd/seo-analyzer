@@ -17,6 +17,6 @@ class CanonicalMetric extends AbstractMetric
             return 'There is nothing to do here as there is no links on the site.';
         }
         
-        return "";
+        return "found canonical link on website";
     }
 }
