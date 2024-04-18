@@ -4,10 +4,10 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "php": ">=7.1",
+    "php": "^8.0.2",
     "ext-dom": "*",
     "ext-libxml": "*",
-    "guzzlehttp/guzzle": "^6.3",
+    "guzzlehttp/guzzle": "^7.2",
     "symfony/cache": "^4.2",
     "symfony/translation": "^4.2",
     "symfony/yaml": "^4.2",
