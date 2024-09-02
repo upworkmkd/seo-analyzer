@@ -17,6 +17,7 @@ return [
         Factor::IMAGES,
         Factor::LINKS,
         Factor::CANONICAL,
+        Factor::TEXT,
         Factor::SCHEMA,
         Factor::CONTENT_RATIO,
         [Factor::DENSITY_PAGE => 'keywordDensity'],
